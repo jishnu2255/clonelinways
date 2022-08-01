@@ -1,0 +1,180 @@
+.fc-day-top {
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding-top: 5px !important;
+}
+
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+    float: none !important;
+}
+
+.fc th, .fc td {
+    border: none !important;
+    padding: 0;
+    vertical-align: top !important;
+}
+
+.fc-bg {
+    border-bottom: 1px solid #cccccc42;
+}
+
+.fc-more-cell {
+    text-align: center;
+    padding-top: 2px !important;
+}
+
+.fc-more-cell a {
+    display: block;
+}
+
+.fc-more-cell div {
+    background-color: #efb175;
+    margin-right: 2px !important;
+    margin-left: 1px !important;
+    padding-top: 0.49rem !important;
+    padding-bottom: 0.49rem !important;
+}
+
+.fc-more-cell .fc-more {
+    font-weight: 600;
+    color: #fff;
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .fc-center h2 {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .fc-center h2 {
+        margin-left: 1rem !important;
+    }
+}
+
+.fc-button-group .fc-button {
+    color: #202129;
+    background-color: #f2f2f2;
+    text-shadow: none;
+}
+
+.fc-button-group .fc-state-active {
+    color: #202129;
+    background-color: #fff;
+    opacity: 1;
+    text-shadow: none;
+    background-position: 0;
+    box-shadow: none !important;
+
+}
+
+.fc-button-group .fc-prev-button, .fc-button-group .fc-next-button {
+    padding-top: 4px !important;
+}
+
+.fc-button-group .fc-prev-button.fc-state-hover,
+.fc-button-group .fc-next-button.fc-state-hover {
+    color: #202129;
+    background-position: 0px -28px;
+    background-color: #d5d6d6;
+    opacity: 1;
+    text-shadow: none;
+    box-shadow: none !important;
+}
+
+.fc-state-default {
+    border: none !important;
+    background-image: none !important;
+}
+
+.holiday {
+    background-color: #38AF82;
+
+}
+
+.exam {
+    background-color: #FF6373;
+
+}
+
+.assignment {
+    background-color: #9F7CC4;
+
+}
+
+.special {
+    background-color: #C1AF9B;
+
+}
+
+.specialholiday {
+    background-color: #C1AF9B;
+
+}
+
+.nothing {
+    background-color: #2a6496;
+}
+
+.multiple-events {
+    background-color:#efb175; 
+}
+
+.quiz {
+    background-color: #e41988;
+
+}
+
+.fc-event-container a.fc-event {
+    padding: 5px;
+    border-color: transparent;
+}
+
+.fully_covered {
+    background-color: #38AF82;
+}
+
+.partially_covered {
+    background-color: #A6E1AF;
+}
+
+.not_covered {
+    background-color: #C1AF9B;
+}
+
+.important {
+    border: 1px solid #FF6373;
+}
+
+.student-calendar .fc-view.full-width .fc-popover .fc-body.fc-widget-content {
+    width: 100% !important;
+}
+
+.fc-event-container a.fc-event {
+    cursor: pointer;
+}
+
+.student-calendar .fc-agendaWeek-view .fc-axis.fc-time {
+    width: 0 !important;
+}
+
+.student-calendar .fc-agendaWeek-view table thead.fc-head {
+    border-bottom: 1px solid #cccccc42;
+}
+
+.student-calendar .fc-agendaDay-view .fc-axis.fc-time {
+}
+
+.student-calendar .fc-agendaDay-view td.fc-axis {
+    padding-top: 10px;
+}
+
+.student-calendar .fc-agendaWeek-view td.fc-axis {
+    padding-top: 10px;
+}
+
+.student-calendar .fc-row.fc-widget-header {
+    padding-bottom: 10px;
+}
